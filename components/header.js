@@ -28,7 +28,7 @@ export default function Header() {
                 <Link href='contact' className="text-[#676767] hover:text-white mt-3 mb-[80px] md:my-0 mx-5">Contact</Link>
             </div>
             <div className="hidden md:block absolute bottom-5 md:top-7 md:right-7" id="talk-btn">
-                <Link href='contact' className="bg-[#323232] px-5 py-2 font-bold border-0 rounded-xl">Let's talk</Link>
+                <Link href='contact' className="bg-[#323232] px-5 py-2 font-bold border-0 rounded-xl">Let&apos;s talk</Link>
             </div>
             <div className="md:hidden absolute top-5 right-5" id="open-btn" onClick={() => showMenu()}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">

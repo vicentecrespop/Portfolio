@@ -10,7 +10,7 @@ export default function WorkTogether({ title, description }) {
                 <Image src={img} alt='Banner' className="w-80 sm:w-40" />
               </div> */}
               <div className="w-full flex flex-col items-start pr-10">
-                <h1 className="text-4xl sm:text-5xl text-white font-bold">Let's Work <span className="text-blue-500">Together</span></h1>
+                <h1 className="text-4xl sm:text-5xl text-white font-bold">Let&apos;s Work <span className="text-blue-500">Together</span></h1>
               </div>
               {/* <div className="absolute bottom-5 right-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
