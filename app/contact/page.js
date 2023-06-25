@@ -72,7 +72,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="h-fit flex flex-col clear-container p-10 rounded-3xl m-5 flex-grow mr-8">
-                <span className="text-[36px] sm:text-[50px] lg:text-[50px] font-semibold">Let's Work <span className="text-blue-500">together</span></span>
+                <span className="text-[36px] sm:text-[50px] lg:text-[50px] font-semibold">Let&apos;s Work <span className="text-blue-500">together</span></span>
                 <form className="flex flex-col mt-10">
                     <input type="text" placeholder="Name *" name="name" className="bg-[#0F0F0F] opacity-50 p-4 rounded-xl mb-5"/>
                     <input type="text" placeholder="Email *" name="email" className="bg-[#0F0F0F] opacity-50 p-4 rounded-xl mb-5"/>
