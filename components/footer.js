@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div className="bg-[#0F0F0F] text-[#676767] flex flex-col py-5 min-h-[350px] items-center justify-center">
             <div>
-                <span className="text-4xl font-bold text-white cursor-default">GridX</span>
+                <span className="text-4xl font-bold text-white cursor-default">Portfolio.</span>
             </div>
             <div className="flex flex-wrap text-xs my-5 px-3">
                 <Link href='/' className="mx-3 hover:text-white">HOME</Link>

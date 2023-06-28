@@ -2,7 +2,7 @@ import Banner from "@/components/banner";
 import Socials from "@/components/socials";
 import WorkTogether from "@/components/workTogether";
 
-import signature from '@/public/signature.png'
+import signature from '@/public/assinatura.png'
 import profile2 from '@/public/profile2.jpg'
 import drop from '@/public/drop.png'
 import star from '@/public/star.png'

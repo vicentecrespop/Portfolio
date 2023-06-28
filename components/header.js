@@ -22,10 +22,10 @@ export default function Header() {
         <div className="w-full bg-[#0F0F0F] z-[2000] text-white flex justify-center items-center absolute py-5 px-5 lg:min-w-[960px] lg:w-[65vw]">
             <div className="text-2xl font-bold absolute top-5 left-5">Vicente Crespo</div>
             <div className={`${openMenu ? 'flex flex-col mt-[80px] text-center' : 'hidden'} md:flex md:flex-row md:mt-2`} id="menu-items">
-                <Link href='/' className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">Home</Link>
-                <Link href='about' className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">About</Link>
-                <Link href='works' className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">Works</Link>
-                <Link href='contact' className="text-[#676767] hover:text-white mt-3 mb-[80px] md:my-0 mx-5">Contact</Link>
+                <Link href='/' onClick={() => showMenu()} className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">Home</Link>
+                <Link href='about' onClick={() => showMenu()} className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">About</Link>
+                <Link href='works' onClick={() => showMenu()} className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">Works</Link>
+                <Link href='contact' onClick={() => showMenu()} className="text-[#676767] hover:text-white mt-3 mb-[80px] md:my-0 mx-5">Contact</Link>
             </div>
             <div className="hidden md:block absolute bottom-5 md:top-7 md:right-7" id="talk-btn">
                 <Link href='contact' className="bg-[#323232] px-5 py-2 font-bold border-0 rounded-xl">Let&apos;s talk</Link>

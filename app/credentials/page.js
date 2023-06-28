@@ -10,10 +10,10 @@ import Link from "next/link";
 export default function Credentials() {
     return (
         <div className="flex justify-center bg-[#0F0F0F]">
-        <main className="min-h-screen pt-[100px] bg-[#0F0F0F] text-white flex flex-col md:flex-row items-center md:items-start lg:min-w-[960px] lg:w-[65vw]">
-            <div className="w-full md:w-[40vw] flex justify-center my-20 md:my-0 mx-10">
+        <main className="w-screen min-h-screen pt-[150px] bg-[#0F0F0F] text-white flex flex-col md:flex-row items-center md:items-start lg:min-w-[960px] lg:w-[65vw]">
+            <div className="w-full md:w-[40vw] flex justify-center my-20 md:my-0 px-10">
                 <div className="w-fit h-fit flex flex-col items-center p-7 rounded-3xl clear-container mx-5">
-                    <Image src={profile} width={300} alt="Profile"  className="rounded-2xl w-full md:w-[300px]"/>
+                    <Image src={profile} width={300} alt="Profile"  className="rounded-2xl w-full w-[250px] md:w-[300px]"/>
                     <div className="text-center my-5">
                         <h2 className="text-3xl">Vicente Crespo</h2>
                         <span className="text-[#BCBCBC] opacity-50">@vicentecrespop</span>

@@ -6,7 +6,7 @@ import icon from "@/public/icon.svg";
 export default function Socials({ description, title }) {
     return (
         <div className="info-container h-full flex flex-col items-center justify-evenly relative rounded-[30px] p-5 text-[#0F0F0F] hover:text-white">
-              <div className="my-5 sm:my-0">
+              <div className="my-5">
                 <div className="border border-[#FFF2] rounded-3xl relative h-full socials-bg">
                 </div>
                 <div className="grid grid-cols-2 gap-5 rounded-3xl py-3 px-5 relative top-[-71px] z-[200] bg-transparent">

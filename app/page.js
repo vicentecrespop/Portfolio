@@ -5,12 +5,13 @@ import Socials from "@/components/socials";
 import profile from '../public/profile.jpg'
 import imagineshop from '../public/site-imagineshop.png'
 import imgImagine from '@/public/imagineshop-template.png'
-import signature from '../public/signature.png'
+import signature from '../public/assinatura.png'
 import pin from '../public/pin.png'
 import WorkTogether from "@/components/workTogether";
 import Link from "next/link";
 import icon from '@/public/icon.svg';
 import AnimatedLabel from "@/components/animatedLabel";
+import ServicesOffering from "@/components/servicesOffering";
 
 export default function Home() {
   return (  
@@ -49,7 +50,8 @@ export default function Home() {
           <Banner img={imagineshop} title='GFonts' description='BLOG' url="/" />
         </div>
         <div className="sm:col-span-2 sm:row-start-2 lg:row-start-auto">
-          <Banner img={signature} title='Services Offering' description='SPECIALIZATION' url="/" />
+          {/* <Banner img={signature} title='Services Offering' description='SPECIALIZATION' url="/" /> */}
+          <ServicesOffering />
         </div>
         <div className="lg:col-span-1 sm:row-start-1 lg:row-start-auto">
           <Socials title='Profiles' description='STAY WITH ME'/>

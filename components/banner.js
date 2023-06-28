@@ -6,7 +6,7 @@ export default function Banner({ img, title, description, url }) {
     return (
         <Link href={url} className="info-container h-full flex flex-col items-center justify-evenly relative rounded-[30px] p-5 text-[#0F0F0F] hover:text-white">
               <div className="my-5 sm:my-0">
-                <Image src={img} alt='Banner' className="w-80 sm:w-40 max-w-[200px] max-h-[150px] rounded-2xl" />
+                <Image src={img} alt='Banner' className="w-80 sm:w-40 max-w-[200px] h-[150px] sm:h-auto max-h-[150px] rounded-2xl" />
               </div>
               <div className="w-full flex flex-col items-start pr-10 pt-3">
                 <h4 className="text-sm text-[#BCBCBC]">{description}</h4>
