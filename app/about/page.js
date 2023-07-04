@@ -12,24 +12,20 @@ import Image from "next/image";
 export default function About() {
     return (
         <div className="flex justify-center bg-[#0F0F0F]">
-        <main className="min-h-[60vh] w-full pt-[10px] bg-[#0F0F0F] text-white flex flex-col md:flex-row justify-center lg:min-w-[960px] lg:w-[65vw]">
+        <main className="min-h-[60vh] w-full pt-[150px] bg-[#0F0F0F] text-white flex flex-col md:flex-row justify-center lg:min-w-[960px] lg:w-[65vw]">
             <div>
-                {/* <div className="flex flex-col lg:flex-row items-center mx-5"> */}
-                <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-5 items-end mx-5 -mt-10 sm:mt-0">
-                    <div className="clear-container justify-self-center col-span-2 p-5 sm:p-7 rounded-3xl mx-5 sm:mx-0 sm:mr-5 w-fit -mb-32 sm:-mb-28 md:-mb-22 lg:mb-0 ">
-                        <Image src={profile2} width={340} alt="Profile" className="rounded-[25px] w-auto lg:w-full"/>
+                <div className="flex flex-col lg:flex-row items-center lg:items-end mx-5">
+                    <div className="clear-container lg:h-full p-5 rounded-3xl lg:mr-5 max-w-[380px]">
+                        <Image src={profile2} width={340} alt="Profile" className="rounded-[25px] w-auto"/>
                     </div>
-                    <div className="grid col-span-3 grid-rows-2 grid-cols-1 gap-5">
-                    {/* <div className="flex flex-col mx-0 lg:mx-0 h-full"> */}
-                        <div className="flex items-end justify-center">
-                            <div className="text-center text-[24px] sm:text-[36px] md:text-[50px] font-semibold flex items-center justify-center">
-                                <div>
-                                    <Image src={star} width={36} alt="Star" className="md:w-[50px]" />
-                                </div>
-                                <span className="my-5 lg:my-0">SELF-SUMMARY</span>
-                                <div>
-                                    <Image src={star} width={36} alt="Star" className="md:w-[50px]" />
-                                </div>
+                    <div className="w-full">
+                        <div className="flex items-center justify-center text-[24px] sm:text-[36px] md:text-[50px] ">
+                            <div>
+                                <Image src={star} width={36} alt="Star" className="md:w-[50px]" />
+                            </div>
+                            <span className="my-5 lg:my-0 font-semibold">SELF-SUMMARY</span>
+                            <div>
+                                <Image src={star} width={36} alt="Star" className="md:w-[50px]" />
                             </div>
                         </div>
                         <div className="clear-container rounded-2xl p-7 pt-24 sm:pt-0 flex flex-col h-auto sm:h-[240px] mt-1 justify-end relative">
