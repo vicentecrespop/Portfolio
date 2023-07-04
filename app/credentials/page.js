@@ -55,23 +55,19 @@ export default function Credentials() {
             </div>
             <div className="flex flex-col mx-5">
                 <div>
-                    <h3 className="text-xl font-bold mb-10">SOBRE MIM</h3>
-                    <p className="mb-3">
+                    <h3 className="text-xl font-bold mb-10">ABOUT ME</h3>
+                    <p className="mb-3 text-justify">
                         Sou um Desenvolvedor Full Stack, pois assim como faço aplicações web frontend com design responsivo, consigo trabalhar também com 
                         banco de dados e a parte do backend de aplicações.
                     </p>
-                    <p>
+                    <p className="text-justify">
                         Estudo Desenvolvimento Full Stack na faculdade Estácio de Sá, além da faculdade, já fiz alguns cursos na área como
                         o curso CS50x de ciências da computação de Harvard, cujo foco principal é o desenvolvimento Back End em linguagens como C e Python,
                         e o curso Web moderno de Javascript da Cod3r, onde o foco é o desenvolvimento Web / Front End mas também ensina tecnologias para o Back End.
                     </p>
                 </div>
-                {/* <div>
-                    <h3>EXPERIENCE</h3>
-                    List with Experience Components 
-                </div> */}
                 <div>
-                    <h3 className="text-xl font-bold my-10">EDUCAÇÃO</h3>
+                    <h3 className="text-xl font-bold my-10">EDUCATION</h3>
                     <CredentialsContainer credential={IFSC} />
                     <CredentialsContainer credential={Estacio} />
                     <CredentialsContainer credential={Harvard} />
@@ -79,7 +75,7 @@ export default function Credentials() {
                     <CredentialsContainer credential={TypeUdemy} />
                     <CredentialsContainer credential={MongoDB} />
                 </div>
-                <h3 className="text-xl font-bold mb-10">HABILIDADES</h3>
+                <h3 className="text-xl font-bold mb-10">SKILLS</h3>
                 <div className="flex flex-col sm:flex-row w-full">
                     <div className="w-1/2">
                         <SkillsContainer name="JavaScript" type="Linguagem de Programação" level="95%" />
@@ -97,7 +93,7 @@ export default function Credentials() {
                     </div>
                 </div>
                 <div className="mt-10">
-                    <h3 className="text-xl font-bold mb-10">CERTIFICADOS</h3>
+                    <h3 className="text-xl font-bold mb-10">CERTIFICATES</h3>
                     <CertificatesContainer image={Harvard.image} name="Harvard CS50x Ciências da Computação" url={Harvard.certificate} />
                     <CertificatesContainer image={Cod3r.image} name="Cod3r Curso Web Completo JavaScript" url={Cod3r.certificate} />
                     <CertificatesContainer image={IFSC.image} name="Engenharia Eletrônica" url={IFSC.certificate} />

@@ -1,6 +1,9 @@
 'use client';
+import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react"
+import { useState } from "react";
+
+import logo from "@/public/logo.png";
 
 export default function Header() {
     const [openMenu, setOpenMenu] = useState(false)
@@ -20,7 +23,10 @@ export default function Header() {
     return (
         <div className="flex justify-center bg-[#0F0F0F]">
         <div className="w-full bg-[#0F0F0F] z-[2000] text-white flex justify-center items-center absolute py-5 px-5 lg:min-w-[960px] lg:w-[65vw]">
-            <div className="text-2xl font-bold absolute top-5 left-5">Vicente Crespo</div>
+            {/* <div className="text-2xl font-bold absolute top-5 left-5">Vicente Crespo</div> */}
+            <div className="absolute top-5 left-5">
+                <Image src={logo} height={60} alt="logo" className=""/>
+            </div>
             <div className={`${openMenu ? 'flex flex-col mt-[80px] text-center' : 'hidden'} md:flex md:flex-row md:mt-2`} id="menu-items">
                 <Link href='/' onClick={() => showMenu()} className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">Home</Link>
                 <Link href='about' onClick={() => showMenu()} className="text-[#676767] hover:text-white my-3 md:my-0 mx-5">About</Link>

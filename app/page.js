@@ -45,19 +45,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 m-5">
+      <div className="grid grid-cols-1 grid-rows-3 sm:grid-cols-2 sm:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-5 m-5">
         <div className="lg:col-span-1">
           <Banner img={imagineshop} title='GFonts' description='BLOG' url="/" />
         </div>
         <div className="sm:col-span-2 sm:row-start-2 lg:row-start-auto">
-          {/* <Banner img={signature} title='Services Offering' description='SPECIALIZATION' url="/" /> */}
           <ServicesOffering />
         </div>
         <div className="lg:col-span-1 sm:row-start-1 lg:row-start-auto">
           <Socials title='Profiles' description='STAY WITH ME'/>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 m-5 mb-0">
+      <div className="grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-5 m-5 mb-0">
         <div>
           <Banner img={pin} title='Florianópolis - SC, Brazil' description='FROM' url="contact"  />
         </div>

@@ -5,7 +5,7 @@ import icon from "@/public/icon.svg";
 
 export default function Socials({ description, title }) {
     return (
-        <div className="info-container h-full flex flex-col items-center justify-evenly relative rounded-[30px] p-5 text-[#0F0F0F] hover:text-white">
+        <div className="info-container h-full flex flex-col items-center justify-evenly relative rounded-[30px] p-5 text-[#0F0F0F] hover:text-white h-[280px]">
               <div className="my-5">
                 <div className="border border-[#FFF2] rounded-3xl relative h-full socials-bg">
                 </div>
